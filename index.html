@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New-Portfolio</title>
+   
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaquiry.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <h1><span>S</span>AMIR.</h1>
+        <ul id="sidemenu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu();"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu();"></i>
+      </nav>
+      <div class="header-profile">
+        <div class="profile-name">
+          <p>Hello, I'm</p>
+          <h1>Samir Alam</h1>
+          <p class="header-profession">A Frontend Developer</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100074580427453"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="www.linkedin.com/in/samir-alam-66aa75316"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/samiralamnep/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://x.com/SamiralamNep"
+              ><i class="fa-brands fa-x"></i
+            ></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXmSwsCzLrlTrKWdCmTvSvJcSxZFbnSTFsnDkWXJFXfkSnpJQqWPDRgzwbxMcsGrnhwbbb"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+          <a href="/Images/samir's-cv.pdf" download class="btn download-cv"
+            >Download Cv</a>
+        </div>
+        <div class="profile-img">
+          
+        </div>
+      </div>
+    </div>
+    <!-- -----about----- -->
+    <div id="about">
+      <div class="section-info">
+        <p>Get To Know More</p>
+        <h1>About me !</h1>
+      </div>
+      <div class="img-qualification">
+        <div class="about-image"></div>
+        <div class="qualification-info">
+          <div class="education-qualification">
+            <div class="box education">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h1>qualification</h1>
+              <p>+2 Computer Science</p>
+              <p>B-TECH Going</p>
+            </div>
+            <div class="box qualification">
+              <i class="fa-solid fa-award"></i>
+              <h1>Experience</h1>
+              <p>1+ years</p>
+              <p>Frontend Development</p>
+            </div>
+          </div>
+          <div class="my-description">
+            <p>
+              I am a 12th-grade graduate from Alpine Secondary School-14, Parsa,
+              Nepal, with a 3.05/4 GPA. Passionate about technology and
+              innovation, I have an entrepreneurial mindset and a drive to
+              create impactful solutions. In my free time, I enjoy making tea
+              and listening to romantic and sad novels, finding inspiration in
+              stories that touch the heart.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----Services----- -->
+    <div id="services">
+      <div class="section-info">
+        <p>Explore About My</p>
+        <h1>Services</h1>
+      </div>
+      <div class="three services">
+        <div class="item first">
+          <i class="fa-solid fa-code"></i>
+          <h1>Web Design</h1>
+          <p>
+            Web design creates attractive, user-friendly websites by blending
+            layout, colors, typography, and functionality. It ensures mobile
+            responsiveness, aligns with a brand's identity, and enhances user
+            experience. Good web design transforms ideas into engaging digital
+            spaces, helping businesses connect with customers and achieve their
+            online objectives.
+          </p>
+          <button class="learn-more">
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a>
+          </button>
+        </div>
+        <div class="item second">
+          <i class="fa-solid fa-crop"></i>
+          <h1>UI/UX Design</h1>
+          <p>
+            UI/UX design focuses on creating user-friendly and visually
+            appealing digital interfaces. It ensures seamless interactions by
+            combining design, functionality, and user behavior insights. UI
+            (User Interface) emphasizes the look and feel, while UX (User
+            Experience) focuses on usability. Together, they deliver engaging
+            and intuitive products tailored to user needs.
+          </p>
+          <button class="learn-more">
+            <a href="https://en.wikipedia.org/wiki/User_experience_design"
+              >Learn More</a
+            >
+          </button>
+        </div>
+        <div class="item third">
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h1>App Design</h1>
+          <p>
+            App design involves creating visually appealing and functional
+            mobile or desktop applications. It combines intuitive layouts,
+            engaging visuals, and seamless navigation to deliver a user-friendly
+            experience. Effective app design focuses on usability, performance,
+            and responsiveness, ensuring the app meets user needs while aligning
+            with a brand’s identity and achieving its goals.
+          </p>
+          <button class="learn-more">
+            <a href="https://en.wikipedia.org/wiki/Mobile_app_development"
+              >Learn More</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- -----project----- -->
+     <div id="projects">
+      <div class="section-info">
+        <p>Browse My Recent Major</p>
+        <h1>Projects</h1>
+      </div>
+      <div class="three projects">
+        <div class="item food-one">
+          <div
+            class="images food"
+          ></div>
+
+          <h1>
+            Food App
+          </h1>
+          <button><a href="/404error.html">Live Demo</a></button>
+        </div>
+        <div class="item transport-two">
+          <div
+            class="images transport"
+          ></div>
+          <h1>
+            Transport App
+          </h1>
+          <button><a href="/404error.html">Live Demo</a></button>
+        </div>
+        <div class="item message-three">
+          <div
+            class="images message"
+          ></div>
+          <h1>
+            Message App
+          </h1>
+          <button><a href="/404error.html">Live Demo</a></button>
+        </div>
+      </div>
+     </div>
+     <div id="contact">
+      <div class="section-info">
+        <p>Get In Touch</p>
+        <h1>Contact Me</h1>
+     </div>
+     <div class="form">
+      <form action="https://formsubmit.co/1sameeralam21@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email
+            "
+              required
+            />
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="download-cv submit">submit</button>
+          </form>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Samir. Made with <i class="fa-solid fa-heart"></i> By
+        Samir's Team..
+      </p>
+    </div>
+  </div>
+     </div>
+    <script src="script.js"></script>
+  </body>
+</html>
